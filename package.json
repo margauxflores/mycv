@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/margauxflores/mycv#readme",
   "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0"
+    "browser-sync": "^2.24.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^4.0.1"
   }
 }
