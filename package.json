@@ -1,0 +1,25 @@
+{
+  "name": "margauxflorescv",
+  "version": "1.0.0",
+  "description": "A one-pager CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margauxflores/mycv.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Margaux Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margauxflores/mycv/issues"
+  },
+  "homepage": "https://github.com/margauxflores/mycv#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  }
+}

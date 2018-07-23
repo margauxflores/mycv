@@ -1,0 +1,280 @@
+/* Imports */
+@import url("https://use.typekit.net/eob5fhf.css");
+@import url("https://use.fontawesome.com/releases/v5.1.0/css/all.css");
+/* Variables */
+/* Mixins */
+/* Main Stylesheet */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1em; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  width: 100%;
+  height: 1vh;
+  background-color: #e1e7df;
+  padding: 0;
+  margin: 0;
+  line-height: 1.45; }
+
+p {
+  margin-bottom: 1.3em;
+  font-family: "adelle", serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  font-variant-ligatures: none;
+  color: #3F424A; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2; }
+
+h1 {
+  margin: 2px 0;
+  padding: 3px 0;
+  font-size: 3.157em;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300; }
+
+h2 {
+  margin: 2px 0;
+  padding: 3px 0;
+  font-size: 2.369em;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300; }
+
+h3 {
+  margin: 2px 0;
+  padding: 3px 0;
+  font-size: 1.777em;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300; }
+
+h4 {
+  margin: 2px 0;
+  padding: 3px 0;
+  font-size: 1.333em;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300; }
+
+.small {
+  font-size: 0.7em;
+  font-family: "museo-sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.topbar {
+  width: 100%;
+  background-color: #f18c6a;
+  color: #e1e7df;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1); }
+  .topbar .logoblock {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    background-color: #5f5070;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .topbar .logoblock .logotype {
+      font-size: 0.7em;
+      font-family: "museo-sans", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 3px;
+      color: #ac9fba; }
+  .topbar .social-links ul {
+    margin: 0;
+    padding: 5px; }
+    .topbar .social-links ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 0 20px; }
+      .topbar .social-links ul li a {
+        text-decoration: none;
+        color: #fad4c7;
+        font-size: 0.7em;
+        font-family: "museo-sans", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all 200ms ease-in-out 75ms; }
+        .topbar .social-links ul li a:hover {
+          color: #78658e; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 50px; }
+
+#brief-intro {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex; }
+  #brief-intro .intro-title {
+    width: 20%;
+    padding: 30px;
+    display: flex;
+    justify-content: center; }
+    #brief-intro .intro-title h3 {
+      color: #5f5070;
+      padding-bottom: 3px;
+      border-bottom: solid 3px #f18c6a; }
+  #brief-intro .intro-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+#experience {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto; }
+  #experience .title {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; }
+    #experience .title h1 {
+      display: inline-block;
+      color: #555860;
+      font-size: 5em;
+      font-weight: 400;
+      background-color: #e1e7df;
+      position: relative;
+      left: 60%;
+      z-index: 100;
+      padding-left: 30px; }
+    #experience .title hr {
+      border: solid 5px #f18c6a;
+      position: absolute;
+      top: 50%;
+      width: 100%; }
+  #experience .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0; }
+    #experience .content .job-block {
+      margin-bottom: 20px;
+      display: flex; }
+      #experience .content .job-block .job-overview {
+        padding: 10px 20px;
+        width: 25%;
+        background-color: #5f5070;
+        color: #f18c6a;
+        display: flex;
+        align-items: center; }
+        #experience .content .job-block .job-overview .date-tag {
+          background-color: #9281a5;
+          padding: 5px 10px;
+          border-radius: 3px;
+          color: #5f5070;
+          font-size: 0.7em;
+          font-family: "museo-sans", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin: 10px 0;
+          -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1); }
+        #experience .content .job-block .job-overview h4 {
+          margin-top: 10px; }
+      #experience .content .job-block .job-desc {
+        padding: 10px 20px;
+        width: 75%;
+        background-color: #90aaaf;
+        display: flex;
+        align-items: center; }
+        #experience .content .job-block .job-desc p {
+          color: #e9e7bf;
+          font-weight: 100; }
+
+#skills-new {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto; }
+  #skills-new .title {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px; }
+    #skills-new .title h1 {
+      display: inline-block;
+      color: #555860;
+      font-size: 5em;
+      font-weight: 400;
+      background-color: #e1e7df;
+      position: relative;
+      left: 870px;
+      z-index: 100;
+      padding-left: 30px; }
+    #skills-new .title hr {
+      border: solid 5px #f18c6a;
+      position: absolute;
+      top: 50%;
+      width: 100%; }
+  #skills-new .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px; }
+    #skills-new .content .skills-block {
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex; }
+      #skills-new .content .skills-block .skill-title {
+        padding: 10px 20px;
+        width: 40%;
+        background-color: #5f5070;
+        color: #f18c6a;
+        display: flex;
+        align-items: center; }
+      #skills-new .content .skills-block .skill-desc {
+        padding: 10px 20px;
+        width: 60%;
+        background-color: #90aaaf;
+        display: flex;
+        align-items: center; }
+        #skills-new .content .skills-block .skill-desc p {
+          color: #e9e7bf;
+          font-weight: 100; }
+          #skills-new .content .skills-block .skill-desc p .skill-list {
+            color: #e9e7bf; }
+            #skills-new .content .skills-block .skill-desc p .skill-list li {
+              color: #e9e7bf; }
+
+.skill-list {
+  padding-left: 20px;
+  list-style: none;
+  color: #e9e7bf;
+  font-family: "adelle", serif;
+  letter-spacing: 0.7px;
+  font-weight: 300; }
+  .skill-list li {
+    margin: 10px; }
+    .skill-list li:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      padding-right: 6px;
+      content: '\f058';
+      opacity: 0.8; }
+
+footer {
+  padding: 10px;
+  background-color: #555860;
+  color: #a2a5ac;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
