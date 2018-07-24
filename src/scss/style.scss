@@ -329,3 +329,69 @@ footer {
   color: lighten($lightergray, 30%);
   text-align: center;
 }
+
+// Media Queries
+@media all and (max-width: 1024px) {
+  #experience {
+    .title {
+      h1 {
+        left: 52%;
+        font-size: 4em;
+      }
+      hr {
+        top: 40%;
+      }
+    }
+
+    .content {
+      
+      .job-block {
+
+        
+        .job-overview {
+          width: 30%;
+          padding: 30px 20px;
+          
+          .date-tag {
+            background-color: lighten($smoky, 20%);
+            padding: 5px 10px;
+            border-radius: 3px;
+            color: $smoky;
+            @include small;
+            margin: 10px 0;
+            -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0,0,0,0.10);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0,0,0,0.10);
+  box-shadow: inset 0px 0px 7px 2px rgba(0,0,0,0.10);
+          }
+          
+          h4 {
+            margin-top: 10px;
+          }
+        }
+        
+        .job-desc {
+          padding: 10px 20px;
+          width: 70%;
+          background-color: $cascade;
+          display: flex;
+          align-items: center;
+          
+          p {
+            color: $fallgreen;
+            font-weight: 100;
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+
+  #skills-new {
+    .title {
+      h1 {
+        font-size: 4em;
+        left: 77%;
+      }
+    }
+  }
+}

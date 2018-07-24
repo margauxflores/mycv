@@ -277,3 +277,41 @@ footer {
   background-color: #555860;
   color: #a2a5ac;
   text-align: center; }
+
+@media all and (max-width: 1024px) {
+  #experience .title h1 {
+    left: 52%;
+    font-size: 4em; }
+  #experience .title hr {
+    top: 40%; }
+  #experience .content .job-block .job-overview {
+    width: 30%;
+    padding: 30px 20px; }
+    #experience .content .job-block .job-overview .date-tag {
+      background-color: #9281a5;
+      padding: 5px 10px;
+      border-radius: 3px;
+      color: #5f5070;
+      font-size: 0.7em;
+      font-family: "museo-sans", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 10px 0;
+      -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.1); }
+    #experience .content .job-block .job-overview h4 {
+      margin-top: 10px; }
+  #experience .content .job-block .job-desc {
+    padding: 10px 20px;
+    width: 70%;
+    background-color: #90aaaf;
+    display: flex;
+    align-items: center; }
+    #experience .content .job-block .job-desc p {
+      color: #e9e7bf;
+      font-weight: 100;
+      font-size: 0.9em; }
+  #skills-new .title h1 {
+    font-size: 4em;
+    left: 77%; } }
